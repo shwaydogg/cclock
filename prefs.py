@@ -4,7 +4,7 @@ import utils
 
 DEFAULTS = {
     'wifi_ssid': 'climateclock',
-    'wifi_password': 'climateclock',
+    'wifi_password': 'smokegardenpaper',
     'api_hostname': 'api.climateclock.world',
     'api_path': '/v1/clock',
     'index_hostname': 'zestyping.github.io',

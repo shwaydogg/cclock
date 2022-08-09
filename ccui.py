@@ -68,8 +68,8 @@ def render_deadline_module(frame, y, module, cv, lang='en', upper=False):
         }
         text = texts.get(lang, texts['en'])
     else:
-        text = f'{yr} years {d} days {h:02d}:{m:02d}:{s:02d}'
-    if upper:
+        text = "HELLO GREG" #Hello World test gtest
+#        text = f'{yr} years {d} days {h:02d}:{m:02d}:{s:02d}'    if upper:
         text = text.upper()
     frame.paste(1, y, frame.new_label(text, 'kairon-16'), cv=cv)
 
